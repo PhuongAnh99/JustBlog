@@ -1,0 +1,82 @@
+﻿@model FA.JustBlog.Core.Models.ViewModels.CommentVM
+
+<form method="post" asp-action="Edit" enctype="multipart/form-data">
+    <input asp-for="Comment.Id" hidden/>
+    <@*input asp-for="Product.ImageUrl" hidden />*@
+
+    <div class="row">
+        <div class="col-12">
+            <div class="border p-3 mt-4 row">
+                <div class="col-12 pb-2">
+                    <h2 class="text-primary">Update Post</h2>
+                    <hr />
+                </div>
+                    <div class="mb-3">
+                    <label asp-for="Comment.Name"></label>
+                    <input asp-for="Comment.Name" class="form-control" />
+                    <span asp-validation-for="Comment.Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Comment.Email"></label>
+                    <input asp-for="Comment.Email" class="form-control" />
+                    <span asp-validation-for="Comment.Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Comment.CommentHeader"></label>
+                    <input asp-for="Comment.CommentHeader" class="form-control" />
+                    <span asp-validation-for="Comment.CommentHeader" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Comment.CommentText"></label>
+                    <textarea asp-for="Comment.CommentText" rows="3" class="form-control"></textarea>
+                    <span asp-validation-for="Comment.CommentText" class="text-danger"></span>
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="Comment.PostId"></label>
+                    <select asp-for="Comment.PostId" asp-items="@Model.PostList" class="form-select">
+                        <option disabled selected>--Select Post--</option>
+                    </select>
+                    <span asp-validation-for="Comment.PostId" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+
+                    <a asp-area="Admin" asp-controller="Comment" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</form>
+
+@*Add Client-side Validation*@
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"></partial>
+    }
+    <script>
+        tinymce.init({
+          selector: 'textarea',
+          plugins: 'a11ychecker advcode casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tableofcontents tinycomments tinymcespellchecker',
+          toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter image editimage pageembed permanentpen table tableofcontents',
+          toolbar_mode: 'floating',
+          tinycomments_mode: 'embedded',
+          tinycomments_author: 'Author name',
+        });
+
+        //function ValidateInput(){
+        //    if(document.getElementById("uploadBox").value == ""){
+        //        Swal.fire({
+        //          icon: 'error',
+        //          title: 'Oops...',
+        //          text: 'Please upload an Image!'
+        //        });
+        //        return false;
+        //    }
+        //    return true;
+        //}
+    </script>
+}

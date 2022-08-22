@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "09a7e352-6d49-4a30-90ce-8182dbcaa1b7": {
+      "ProjectGuid": "09a7e352-6d49-4a30-90ce-8182dbcaa1b7",
+      "DisplayName": "FA.JustBlog.Core",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "5c66b210-ccbe-4ca0-b894-aa9f7979ad66": {
+      "ProjectGuid": "5c66b210-ccbe-4ca0-b894-aa9f7979ad66",
+      "DisplayName": "ConsoleApp1",
+      "ColorIndex": 1
+    },
+    "c2547441-acd4-4479-bb5d-609975fe5016": {
+      "ProjectGuid": "c2547441-acd4-4479-bb5d-609975fe5016",
+      "DisplayName": "FA.JustBlog.UnitTest",
+      "ColorIndex": 2
+    },
+    "1b4e73a0-47f4-4ff6-b823-e024fe92374f": {
+      "ProjectGuid": "1b4e73a0-47f4-4ff6-b823-e024fe92374f",
+      "DisplayName": "FA.JustBlog",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

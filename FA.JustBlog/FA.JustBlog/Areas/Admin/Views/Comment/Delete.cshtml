@@ -1,0 +1,47 @@
+﻿@model FA.JustBlog.Core.Models.Comment
+
+<form method="post" asp-action="Delete" enctype="multipart/form-data">
+    <input asp-for="Id" hidden />
+    <@*input asp-for="Product.ImageUrl" hidden />*@
+
+    <div class="row">
+        <div class="col-12">
+            <div class="border p-3 mt-4 row">
+                <div class="col-12 pb-2">
+                    <h2 class="text-primary">Delete Comment</h2>
+                    <hr />
+                </div>
+                </div>
+                    <div class="mb-3">
+                    <label asp-for="Name"></label>
+                    <input asp-for="Name" disabled class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" disabled class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="CommentHeader"></label>
+                    <input asp-for="CommentHeader" disabled class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="CommentText"></label>
+                    <textarea asp-for="CommentText" disabled rows="3" class="form-control"></textarea>
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="PostId"></label>
+                    <input asp-for="Post.Title" disabled class="form-control" />
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" style="width:150px">Delete</button>
+
+                    <a asp-area="Admin" asp-controller="Comment" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</form>

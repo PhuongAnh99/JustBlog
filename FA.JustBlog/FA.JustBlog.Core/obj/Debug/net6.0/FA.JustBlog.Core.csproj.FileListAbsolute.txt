@@ -1,0 +1,56 @@
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.deps.json
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.runtimeconfig.json
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.dll
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\ref\FA.JustBlog.Core.dll
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.pdb
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.dll
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\ref\FA.JustBlog.Core.dll
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.pdb
+C:\Users\ADMIN\OneDrive\Desktop\Fresher\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.genruntimeconfig.cache
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.deps.json
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.runtimeconfig.json
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.dll
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\ref\FA.JustBlog.Core.dll
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.pdb
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.csproj.AssemblyReference.cache
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.AssemblyInfoInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.AssemblyInfo.cs
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.dll
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\ref\FA.JustBlog.Core.dll
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.pdb
+C:\Users\ADMIN\OneDrive\Desktop\MVC\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.genruntimeconfig.cache
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.deps.json
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.runtimeconfig.json
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.dll
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\ref\FA.JustBlog.Core.dll
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.pdb
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.csproj.AssemblyReference.cache
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.AssemblyInfoInputs.cache
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.AssemblyInfo.cs
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.dll
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\ref\FA.JustBlog.Core.dll
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.pdb
+D:\AnhNTP12_NWEBC Assignment\AnhNTP12_NWEBC Assignment\AnhNTP12_NEFW Assignment\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.genruntimeconfig.cache
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.deps.json
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.runtimeconfig.json
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.dll
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\ref\FA.JustBlog.Core.dll
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\bin\Debug\net6.0\FA.JustBlog.Core.pdb
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.csproj.AssemblyReference.cache
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.AssemblyInfoInputs.cache
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.AssemblyInfo.cs
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.csproj.CoreCompileInputs.cache
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.dll
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\ref\FA.JustBlog.Core.dll
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.pdb
+D:\AnhNTP12_NEFW Assignment\FA.JustBlog\FA.JustBlog.Core\obj\Debug\net6.0\FA.JustBlog.Core.genruntimeconfig.cache

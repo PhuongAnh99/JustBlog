@@ -1,0 +1,73 @@
+﻿@model FA.JustBlog.Core.Models.Post
+@using FA.JustBlog.Core.Helper
+@using FA.JustBlog.Core.Infrastructures
+@inject IUnitOfWork unitOfWork
+
+<form method="post" asp-action="Delete" enctype="multipart/form-data">
+    <input asp-for="Id" hidden />
+    <@*input asp-for="Product.ImageUrl" hidden />*@
+
+    <div class="row">
+        <div class="col-12">
+            <div class="border p-3 mt-4 row">
+                <div class="col-12 pb-2">
+                    <h2 class="text-primary">Delete Post</h2>
+                    <hr />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Title"></label>
+                    <input asp-for="Title" disabled class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="ShortDescription"></label>
+                    <input asp-for="ShortDescription" disabled class="form-control" />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="PostContent"></label>
+                    <textarea asp-for="PostContent" disabled rows="3" class="form-control"></textarea>
+                </div>
+
+                <div class="mb-3 col-6">
+                    <label asp-for="Published"></label>
+                    <br /><br />
+                    <input asp-for="Published" disabled class="form-check-input" type="radio" checked value="true" /> Yes
+                    <input asp-for="Published" disabled class="form-check-input" type="radio" value="false" /> No
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="ViewCount"></label>
+                    <input asp-for="ViewCount" disabled class="form-control" />
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="RateCount"></label>
+                    <input asp-for="RateCount" disabled class="form-control" />
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="TotalRate"></label>
+                    <input asp-for="TotalRate" disabled class="form-control" />
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="CategoryId"></label>
+                    <input asp-for="Category.Name" disabled class="form-control" />
+                </div>
+                <p>
+                    Tags:
+                    @foreach (var tag in unitOfWork.PostRepository.GetTagsByPost(@Model.Id))
+                    {
+                        <span class="bg-black p-2 m-2">
+                            <a class="text-white" asp-area="User" asp-controller="Post" asp-action="GetPostsByTag" asp-route-tag="@tag.Name">@tag.Name</a>
+                        </span>
+                    }
+                </p>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" style="width:150px">Delete</button>
+
+                    <a asp-area="Admin" asp-controller="Post" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</form>

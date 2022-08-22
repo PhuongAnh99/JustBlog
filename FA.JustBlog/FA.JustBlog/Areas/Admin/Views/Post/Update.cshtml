@@ -1,0 +1,104 @@
+﻿@model FA.JustBlog.Core.Models.ViewModels.PostVM
+
+<form method="post" asp-action="Update" enctype="multipart/form-data">
+    <input asp-for="Post.Id" hidden/>
+    <@*input asp-for="Product.ImageUrl" hidden />*@
+
+    <div class="row">
+        <div class="col-12">
+            <div class="border p-3 mt-4 row">
+                <div class="col-12 pb-2">
+                    <h2 class="text-primary">Update Post</h2>
+                    <hr />
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Post.Title"></label>
+                    <input asp-for="Post.Title" class="form-control" />
+                    <span asp-validation-for="Post.Title" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Post.ShortDescription"></label>
+                    <input asp-for="Post.ShortDescription" class="form-control" />
+                    <span asp-validation-for="Post.ShortDescription" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Post.PostContent"></label>
+                    <textarea asp-for="Post.PostContent" rows="3" class="form-control"></textarea>
+                    <span asp-validation-for="Post.PostContent" class="text-danger"></span>
+                </div>
+                
+                <div class="mb-3 col-6">
+                    <label asp-for="Post.Published"></label>
+                    <br /><br />
+                    <input asp-for="Post.Published" class="form-check-input" type="radio" checked value="true" /> Yes
+                    <input asp-for="Post.Published" class="form-check-input" type="radio" value="false" /> No
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="Post.ViewCount"></label>
+                    <input asp-for="Post.ViewCount" class="form-control" />
+                    <span asp-validation-for="Post.ViewCount" class="text-danger"></span>
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="Post.RateCount"></label>
+                    <input asp-for="Post.RateCount" class="form-control" />
+                    <span asp-validation-for="Post.RateCount" class="text-danger"></span>
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="Post.TotalRate"></label>
+                    <input asp-for="Post.TotalRate" class="form-control" />
+                    <span asp-validation-for="Post.TotalRate" class="text-danger"></span>
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="Post.CategoryId"></label>
+                    <select asp-for="Post.CategoryId" asp-items="@Model.CategoryList" class="form-select">
+                        <option disabled selected>--Select Category--</option>
+                    </select>
+                    <span asp-validation-for="Post.CategoryId" class="text-danger"></span>
+                </div>
+                <div class="mb-3 col-6">
+                    <label asp-for="Tags"></label>
+                    <input asp-for="Tags" class="form-control" />
+                    <span asp-validation-for="Tags" class="text-danger"></span>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" style="width:150px">Update</button>
+
+                    <a asp-area="Admin" asp-controller="Post" asp-action="Index" class="btn btn-secondary" style="width:150px">
+                        Back to List
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+</form>
+
+@*Add Client-side Validation*@
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial"></partial>
+    }
+    <script>
+        tinymce.init({
+          selector: 'textarea',
+          plugins: 'a11ychecker advcode casechange export formatpainter image editimage linkchecker autolink lists checklist media mediaembed pageembed permanentpen powerpaste table advtable tableofcontents tinycomments tinymcespellchecker',
+          toolbar: 'a11ycheck addcomment showcomments casechange checklist code export formatpainter image editimage pageembed permanentpen table tableofcontents',
+          toolbar_mode: 'floating',
+          tinycomments_mode: 'embedded',
+          tinycomments_author: 'Author name',
+        });
+
+        //function ValidateInput(){
+        //    if(document.getElementById("uploadBox").value == ""){
+        //        Swal.fire({
+        //          icon: 'error',
+        //          title: 'Oops...',
+        //          text: 'Please upload an Image!'
+        //        });
+        //        return false;
+        //    }
+        //    return true;
+        //}
+    </script>
+}
